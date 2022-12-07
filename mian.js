@@ -18,7 +18,7 @@ var elBookmarkWrap=document.querySelector(".bookmark_tem-wrap")
 
 
 //moviesdan kesib oldim va yangi array hosil qilib boshqa key berib chiqdim
-var mov = movies.slice(0, 20)
+var mov = movies.slice(0, 2000)
 
 var movArray = mov.map(function (item , index) {
     
