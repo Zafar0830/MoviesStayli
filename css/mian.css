@@ -1,0 +1,316 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background:#1F2937;
+}
+.container{
+    margin-right: auto;
+    margin-left: auto;
+    background:#1F2937;
+    max-width: 1690px;
+    align-items: center;
+    padding-right: 20PX;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+
+.form-wrap{
+    display: flex;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.inputs{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    opacity: 0.9;
+    
+}
+.Categories_label{
+    color: white;
+    font-size: 30px;
+    opacity: 0.9;
+}
+.Categor__Selict{
+    width: 300px;
+    height: 40px;
+    background-color: #5D6C74;
+    border-radius: 10px;
+      opacity: 0.9;
+    
+}
+option{
+    font-size: 20px;
+}
+.searchInput{
+    width: 300px;
+    height: 40px;
+    background-color: #5D6C74;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.Categor__Selict{
+    font-size: 20px;
+    color: #fff; 
+}
+.RatingInput{
+    font-size: 20px;
+    color: #fff;
+}
+.form-control{
+    font-size: 20px;
+    color: #fff;
+}
+.Search{
+    color: white;
+    font-size: 30px;
+}
+.Number{
+    color: white;
+    font-size: 30px;
+}
+.number{
+    color: #fff;
+    font-size: 20px;
+}
+.Reating{
+    color: white;
+    font-size: 30px;
+}
+.SubmitBtn{
+    padding: 10px;
+    background-color:#5D6C74;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 200px;
+    left: 0;
+}
+.RatingInput{
+    width: 300px;
+    height: 40px;
+    background-color: #5D6C74;
+    border-radius: 10px;
+    border: none;
+    
+}
+.form-control {
+    width: 300px;
+    height: 40px;
+    background-color: #5D6C74;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+}
+.countr{
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+.link{
+    color:white;
+}
+.countr{
+    font-size:30px;
+    font-weight: 900;
+}
+.wrap  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0;
+    
+}
+.Title{
+    width: 300px;
+    height: 50px;
+    margin: 0;
+    margin-top:5px;
+    margin-bottom: 38px;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    opacity: 0.9;
+}
+.Year{
+    margin: 0;
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+    opacity: 0.9;
+    
+}
+.Rating{
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+    opacity: 0.9;
+}
+.categors{
+    color:white;
+    opacity: 0.9;
+}
+.card{
+    text-align: center;
+    margin-right: 28px;
+    margin-bottom: 38px;
+    background:#111827;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+}
+/* .card:hover{
+    box-shadow: 5px 6px 6px 2px ;
+    transform: scale(1.1);
+} */
+
+.imgs{
+    border-top-right-radius: 21px;
+    
+}
+.imgs:hover{
+    opacity: 0.6;
+}
+.img::before {
+    content: "";
+    transform: translate(130px, 90px);
+    position: absolute;
+    display: block;
+    width: 150px;
+    height:100px ;
+    
+    background-image: url(./../img/icons8-youtube\ \(1\).svg);
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+
+.btnn {
+    background-color: #39414D;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    opacity: 0.8;
+    border: none;
+    margin-right: 10px;
+}
+
+.btnn:hover {
+    background: #0D1117;
+    text-decoration: none;
+    opacity: 0.6;
+}
+
+.btn-bookmark{
+    background-color: #39414D;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.8;
+    border: none;
+}
+.btn-modal{
+    background-color: #39414D;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    margin-left: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-bottom: 5px;
+    color: white;
+    opacity: 0.8;
+    border: none;
+}
+.btn-modal:hover {
+    background: #0D1117;
+    opacity: 0.6;
+    
+    text-decoration: none;
+}
+.btn-bookmark:hover {
+    background: #0D1117;
+    opacity: 0.6;
+    text-decoration: none;
+}
+.btn{
+    display: none;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    margin-right: 30px;
+    padding: 18px;
+    background-color: #111827; 
+    color: white;
+    z-index: 9999;
+    border: none;
+}
+.btn-wrap{
+    display: flex;
+}
+
+.bookmark_wrap{
+    margin-top: 10px;
+    background-color: #5D6C74;
+    width: 300px;
+    height: auto;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+.bookmark_title{
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    opacity: 0.9;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.remove{
+    background-color: red;
+    color: white;
+    opacity: 0.9;
+    padding: 7px 15px 7px 15px;
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+    border: none;
+    border-radius: 7px;
+}
+
+@media only screen and (max-width:820px){
+    .form-wrap{
+     
+       display: flex;
+       flex-direction: column;
+    }
+}
